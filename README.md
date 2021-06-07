@@ -1,2 +1,2 @@
 # oeschle
-reto tec
+reto tech
