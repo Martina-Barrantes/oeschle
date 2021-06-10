@@ -19,11 +19,45 @@
 						<div class="col-lg-12 mt-3">
 							<div class="row">
 								<div class="col-lg-6 pb-2">
-									<a href="#" class="btn w-100 add-to-cart" onclick="gtag('event', 'clic', {'event_category': 'add-to-cart', 'event_label': 'add-to-cart'});"><i class="fa fa-plus" aria-hidden="true"></i>Agregar al carro</a>
+									<a href="#" class="btn w-100 add-to-cart" onclick="gtag('event', 'add_to_cart', {
+										'items': [
+										  {
+											'id': 'C9892',
+											'name': 'Cardigan burbuja',
+											'brand': 'MARTIKNIT',
+											'category': 'Clothes',
+											'variant': 'Green',
+											'list_position': 1,
+											'quantity': 1,
+											'price': '169.00'
+										  }
+										]
+									  });"><i class="fa fa-plus" aria-hidden="true"></i>Agregar al carro</a>
 								</div>
 								<div class="col-lg-6">
-									<a href="#" class="btn w-100 purchase" onclick="gtag('event', 'clic', {'event_category': 'purchase', 'event_label': 'purchase'});"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Comprar</a>
+									<a href="#" class="btn w-100 purchase" onclick="gtag('event', 'purchase', {
+										'transaction_id': '24.031608523954162',
+										'affiliation': 'Oeschle',
+										'value': 169.00,
+										'currency': 'PEN',
+										'tax': 0,
+										'shipping': 0,
+										'items': [
+										  {
+											'id': 'C9892',
+											'name': 'Cardigan burbuja',
+											'brand': 'MARTIKNIT',
+											'category': 'Clothes',
+											'variant': 'Green',
+											'list_position': 1,
+											'quantity': 1,
+											'price': '169.00'
+										  }
+										]
+									  });"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Comprar</a>
 								</div>
+
+								
 							</div>
 						</div>
 					</div>
